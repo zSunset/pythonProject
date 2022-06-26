@@ -45,3 +45,4 @@ a = calc_cube(5)
 print(a)
 print(calc_cube.__name__)
 print(calc_cube.__doc__)
+#
