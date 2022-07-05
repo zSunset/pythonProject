@@ -25,6 +25,6 @@ tutors = ['Иван', 'Анастасия', 'Петр', 'Сергей',
 klasses = ['9А', '7В', '9Б', '9В', '8Б', '10А', '10Б', '9А']
 
 num = ((tutor, klass) for tutor, klass in zip_longest(klasses, tutors) if tutor is not None)
+
 print(type(next(num)))
-print(next(num), next(num), next(num), next(num), next(num),
-      next(num), next(num))
+print(next(num))
